@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <script>
+          function square(x)
+        {
+            return (x*x);
+        }
+        function double(x)
+         {
+             return (x*2);
+         }
+        function compose()
+        {
+            return square(double(10));
+        }
+     var f1=compose(square,double,10);
+     document.write("value for square function is:"+f1);
+     document.write("<br/>");
+
+
+
+     function compose1()
+        {
+            return double(square(10));
+        }
+     
+     var f2 =compose1(double,square,10);
+     document.write("value for double function is:"+f2);
+         
+    </script>
+</body>
+</html>

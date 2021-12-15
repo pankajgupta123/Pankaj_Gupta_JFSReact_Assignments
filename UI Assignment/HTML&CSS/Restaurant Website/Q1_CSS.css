@@ -1,0 +1,27 @@
+.button1
+{
+  background-color: yellow;  
+  height: 40px; 
+  width: 200px;
+}
+.div2{
+    margin-left: 120px;
+    margin-top: 100px;
+}
+.div1
+{
+    background-image: url("image/healthy-food-background-fruits-vegetables-cereal-nuts-superfood-dietary-balanced-vegetarian-eating-products-kitchen-143677456.jpg");
+    height: 500px;
+    width: 800px;
+    background-size: auto;
+}
+.d3
+{
+    margin-left: 120px;
+}
+.button2
+{
+     
+    display: inline-block;
+    
+}

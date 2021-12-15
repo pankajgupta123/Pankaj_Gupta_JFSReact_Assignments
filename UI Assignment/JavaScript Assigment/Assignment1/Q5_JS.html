@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <p id="demo">This is paragraph tag</p>
+    <script>
+        function leapYear()
+        {
+             if(((year%4==0) && ((year%400==0) || (year%100!==0))))
+             {
+                 document.write("year is leap year");
+             }
+             else
+             {
+                 document.write("year is not leap year");
+             }
+        }
+        var year =window.prompt("enter the year");
+        document.getElementById("demo").innerHTML=leapYear();
+
+    </script>
+</body>
+</html>

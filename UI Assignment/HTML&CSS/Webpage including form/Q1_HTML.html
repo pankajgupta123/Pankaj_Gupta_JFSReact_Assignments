@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="Q1_CSS.css">
+</head>
+<body>
+    <div class="d1">
+        <div class="d2">
+            Application for college student
+        </div>
+        <div class="d3">
+            Note: Form is to be completed at least 21 days prior to date
+        </div>
+        <fieldset class="d5">
+            <legend class="d4">Personal Details</legend>
+            <div>
+                <label>Name :</label>
+                <input type="text" placeholder="enter your name" name="name"><br/>
+                <label>Address :</label>
+                <input type="text" placeholder="enter your address" name="address"><br/>
+                <label>Email :</label>
+                <input type="text" placeholder="enter your email" name="email"><br/>
+                <label>Phone Number :</label>
+                <input type="number" placeholder="enter your number" name="mobnumber"><br>
+                <label>IQ :</label>
+                <input type="text" placeholder="enter your IQ" name="IQ"><br>
+                <label>Gender</label><br/>
+                <input type="radio" name="male">Male<br/>
+                <input type="radio" name="Female">Female<br/>
+                <input type="radio" name="Other">Other
+            </div>
+        </fieldset>
+
+    </div>
+    <div class="d6">
+        <label>Check All That Apply</label><br/>
+        <input type="checkbox" name="check">I have tattoos and/or piercings<br/>
+        <input type="checkbox" name="check">I am more than 2 years<br/>
+        <input type="checkbox" name="check">I own a panel van or V8 ute<br/>
+        <input type="checkbox" name="check">I study full-time<br/>
+        <input type="checkbox" name="check">My parents are rich<br/>
+        <input type="checkbox" name="check">Is the date at a well lit public location<br/>
+    </div>
+    <div>
+        <label>Sports Activity :</label>
+        <select>
+            <option>Cricket</option>
+            <option>Football</option>
+            <option>Hockey</option>
+            <option>Vollyball</option>
+        </select>
+        <label>Education level completed :</label>
+        <select>
+            <option>University</option>
+            <option>College</option>
+            <option>High School</option>
+            <option>none</option>
+        </select>
+    </div>
+
+    <fieldset class="d5">
+        <legend class="d4">Essay Section</legend>
+        <div>
+            <p class="p1">In 50 words or more explain why you want to date my daughter</p>
+            <textarea placeholder="Enter text here"></textarea><br/>
+            <p class="p1">Please upload contact details for 2 references</p>
+            <textarea placeholder="Enter text here"></textarea><br/>
+            <p>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:</p>
+            <input type="file" value="attach file"> 
+
+        </div>
+    </fieldset>
+    <input type="submit" value="submit application">Submit your application
+
+</body>
+</html>

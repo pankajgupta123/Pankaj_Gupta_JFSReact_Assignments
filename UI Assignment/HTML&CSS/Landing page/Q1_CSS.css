@@ -1,0 +1,101 @@
+.d1
+{
+    background-image: url("img/sunrise-over-beach-cancun-beautiful-mexico-40065727.jpg");
+    height: 700px;
+    width: 1260px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    
+}
+.h1
+{
+    text-align: center;
+    color: rgb(97, 6, 6);
+    font-size: 50px;
+    
+
+}
+.p1
+{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -15px;
+    color: rgb(97, 6, 6);
+}
+.button
+{
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 25%;
+    margin-left: 600px;
+    cursor: pointer;
+    border: 1px solid brown;
+}
+button:hover{
+    background-color:  rgb(156, 11, 11);
+}
+.d2
+{
+    background-color: brown;
+    height: 200px;
+    margin-top: -23px;
+
+}
+.p{
+color: white;
+font-size: 24px;
+}
+.d3
+{
+    background-color: white;
+    height: 200px;
+}
+.p2
+{
+    color: brown;
+font-size: 20px;
+}
+.d4
+{
+    background-color: brown;
+    height: 120px;
+    width: 400px;
+    margin-top: -90px;
+}
+.p3
+{
+    color: white;
+    font-size: 20px;
+}
+.d5
+{
+    text-align: center;
+}
+.span1
+{
+    border: 1px solid brown;
+    background-color: brown;
+    height: 150px;
+    width: 350px;
+    margin-top: -60px;
+    font-size: 25px;
+    color: white;
+    
+}
+.span2
+{
+    text-align: center;
+    border: 1px solid white;
+    height: 150px;
+    width: 400px;
+font-size: 24px;
+
+
+   
+}
+.s1
+{
+    display: inline-block;
+}

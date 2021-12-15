@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        function square(x)
+        {
+        
+            return (x*x);
+        }
+        function double(x)
+        {
+            return (x*2);
+        }
+        function composedValue()
+        {
+            return square(double(9));
+        }
+        var y= composedValue(square,double,9);
+        document.write("the return value of f1 and f2 is:"+y);
+
+
+
+    </script>
+</body>
+</html>

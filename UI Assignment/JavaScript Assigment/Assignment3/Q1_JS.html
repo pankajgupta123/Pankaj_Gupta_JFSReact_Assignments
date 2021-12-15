@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+     class Rectangle{
+         constructor(height,width)
+         {
+             this.height=height;
+             this.width=width;
+         }
+     } 
+
+     let rect1=new Rectangle(10,20);
+     let rect2=new Rectangle(40,90);
+     document.write("height of the rectangle is :"+rect1.height);
+     document.write("<br/>");
+     document.write("width of the rectanlge is:"+rect1.width);
+     document.write("<br/>");
+
+     //updated value 
+
+     rect2.width=30;
+     rect2.height=50;
+     document.write("new height of the rectangle is :"+rect2.height);
+     document.write("<br/>");
+     document.write("new width of the rectanlge is:"+rect2.width);
+
+
+        
+    </script>
+</body>
+</html> 

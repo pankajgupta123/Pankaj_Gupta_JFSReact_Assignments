@@ -1,0 +1,13 @@
+.main
+{
+    background-color: skyblue;
+}
+a1:visited{
+color: yellow;
+}
+a1:hover{
+    color: dark red;
+}
+a1:link{
+    color: springgreen;
+}

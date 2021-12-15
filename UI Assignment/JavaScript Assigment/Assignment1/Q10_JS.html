@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        function fibFunction()
+        {
+
+            var a=1,b=1,c;
+        for(var i=0;i<=100;i++)
+        {
+            c=a+b;
+            a=b;
+            b=c;
+            document.write("<br/>");
+            document.write(c);
+        }
+        }
+
+        document.getElementById("demo").innerHTML=fibFunction();
+        
+        
+    </script>
+</body>
+</html>

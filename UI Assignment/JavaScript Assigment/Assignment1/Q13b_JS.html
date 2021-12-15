@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+<p id="demo"></p>
+    <script>
+        var arr=[2,34,5,6,7,7,76];
+        var sum=0;
+        function whileLoopFuntion()
+        {
+            var i=0;
+            while(i<arr.length)
+            {
+                sum=sum+arr[i];
+                i++;
+                
+            }
+            document.write("the sum of array using while loop is:"+sum);
+        }
+
+        document.getElementById('demo').innerHTML=whileLoopFuntion();
+    </script>
+</body>
+</html>
